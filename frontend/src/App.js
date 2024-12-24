@@ -1,18 +1,16 @@
 import './App.css';
 import React from 'react';
-import { Button } from "./components/ui/button"
-
+import { Route, Routes } from 'react-router-dom';
+import Homepage from './Pages/Homepage';
 
 function App() {
   return (
-      <div className="App">
-        <header className="App-header">
-          <h1>
-            Welcome to Chakra UI test
-          </h1>
-         <Button>Click me for test</Button>
-        </header>
-      </div>
+    <div className="App">
+      <Routes>
+        <Route path="home" element={<Homepage />} />
+      </Routes>
+    </div>
+
   );
 }
 
