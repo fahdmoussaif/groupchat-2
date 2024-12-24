@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+
+.App {
+  font-family: "Work Sans", sans-serif;
+  background-image: url("./backgroud.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+}
